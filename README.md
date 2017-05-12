@@ -1,5 +1,5 @@
 # Profiles
-This is a collection of mobileconfig profiles for Apple operating systems. 
+These are some of my mobileconfig profiles for Apple operating systems. 
 
 ## ChromeSecuritySettings.mobileconfig ##
 Google Chrome: Disables form autofill, password viewing/saving, prevents changes to proxy settings, and blacklists all but a handful of Chrome extensions.
