@@ -14,8 +14,8 @@
 						<dict>
 							<key>mcx_preference_settings</key>
 							<dict>
-								<key>ProxyMode</key>
-								<string>direct</string>
+								<key>AutoFillEnabled</key>
+								<false/>
 								<key>ExtensionInstallBlacklist</key>
 								<array>
 									<string>*</string>
@@ -30,12 +30,26 @@
 									<string>aapbdbdomjkkjkaonfhkkikfgjllcleb</string>
 									<string>aomjjhallfgjeglblehebfpbcfeobpgk</string>
 								</array>
-								<key>AutoFillEnabled</key>
+								<key>ImportAutofillFormData</key>
+								<false/>
+								<key>ImportBookmarks</key>
+								<false/>
+								<key>ImportHistory</key>
+								<false/>
+								<key>ImportHomepage</key>
+								<false/>
+								<key>ImportSavedPasswords</key>
+								<false/>
+								<key>ImportSearchEngine</key>
 								<false/>
 								<key>PasswordManagerAllowShowPasswords</key>
 								<false/>
 								<key>PasswordManagerEnabled</key>
 								<false/>
+								<key>ProxyMode</key>
+								<string>direct</string>
+								<key>SafeBrowsingEnabled</key>
+								<true/>
 							</dict>
 						</dict>
 					</array>
@@ -44,11 +58,11 @@
 			<key>PayloadEnabled</key>
 			<true/>
 			<key>PayloadIdentifier</key>
-			<string>MCXToProfile.023ab663-a781-4a05-bc66-6b60ca4e791a.alacarte.customsettings.37b0d123-273a-4017-a676-f05085649776</string>
+			<string>MCXToProfile.8e7597fd-e07c-469c-bc9f-4aa08b4985f5.alacarte.customsettings.02d02b68-fcff-4c93-aea9-b68d981ed41c</string>
 			<key>PayloadType</key>
 			<string>com.apple.ManagedClient.preferences</string>
 			<key>PayloadUUID</key>
-			<string>37b0d123-273a-4017-a676-f05085649776</string>
+			<string>02d02b68-fcff-4c93-aea9-b68d981ed41c</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 		</dict>
@@ -58,7 +72,7 @@
 com.google.Chrome
 </string>
 	<key>PayloadDisplayName</key>
-	<string>Chrome: No autofill, no proxy, managed extensions</string>
+	<string>MCXToProfile: com.google.Chrome</string>
 	<key>PayloadIdentifier</key>
 	<string>com.github.davidmnelson.ChromeSecuritySettings</string>
 	<key>PayloadOrganization</key>
@@ -70,7 +84,7 @@ com.google.Chrome
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>023ab663-a781-4a05-bc66-6b60ca4e791a</string>
+	<string>8e7597fd-e07c-469c-bc9f-4aa08b4985f5</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>
