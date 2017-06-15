@@ -9,3 +9,6 @@ Sets default preference for all FortiClientAgent alerts to be hidden in Notifica
 
 ## PrintFooterWithHardwareAddress.mobileconfig ##
 Printing: Forces footer with username, date/time, and MAC address on all print jobs. Useful for tracking abuse/over-use of printers.
+
+## SoftwareUpdateRestrictions.mobileconfig ##
+Disables automatic updates for OS and apps, but updates for XProtect and configuration data remain active. Disables installation of prerelease software. Disables app adoption. 
