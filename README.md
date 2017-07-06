@@ -12,3 +12,6 @@ Makes scroll bars always visible by managing .GlobalPreferences -- sets AppleSho
 
 ## SoftwareUpdateRestrictions.mobileconfig ##
 Disables automatic updates for OS and apps, but updates for XProtect and configuration data remain active. Disables installation of prerelease software. Disables app adoption. 
+
+## TextToSpeechEnabled.mobileconfig ##
+Enables "Speak selected text when the key is pressed" and sets Control+R hotkey.
